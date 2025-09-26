@@ -1,0 +1,1 @@
+Z3DCharacterViewer.exe ./character/data

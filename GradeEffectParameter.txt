@@ -1,0 +1,8 @@
+ idx      Color Peak Signaled Silent
+   1   FFFFFFFF 0.250      0    100
+   2   FF101060 0.700      0    300
+   3   FF606000 0.700      0      0
+   4   FF606060 0.700      0      0
+   5   FF5F5F00 1.000     60    300
+   6   FF5F5F00 1.000     60      0
+   7   FF5F5F00 1.000      0      0
