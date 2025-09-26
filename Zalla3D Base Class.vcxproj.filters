@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="Boost">
+      <UniqueIdentifier>{b2643405-72c3-414f-b587-86d898a4ab36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Boost\config">
+      <UniqueIdentifier>{74cb3101-8b4e-432e-af2e-5537376c76e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Boost\config\compiler">
+      <UniqueIdentifier>{5ae045b0-5707-4cb9-ad09-941e2e4910df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Boost\config\no_tr1">
+      <UniqueIdentifier>{b3118201-f4af-4a7c-b661-0a1b1b90a600}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Boost\config\stdlib">
+      <UniqueIdentifier>{cb643e44-c859-4e7a-8c76-58da4df09850}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Boost\config\platform">
+      <UniqueIdentifier>{377ee5d9-5950-4f0d-bce3-8da61e992875}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Boost\detail">
+      <UniqueIdentifier>{874211d3-4dd5-40e0-b4c1-cddf7a2fbd46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Boost\pool">
+      <UniqueIdentifier>{2048ea87-914f-4a15-9b7b-8aba8ee84070}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Boost\pool\detail">
+      <UniqueIdentifier>{c2217a1d-cd94-4e7d-aed0-9cfb6b9a619d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Boost\type_traits">
+      <UniqueIdentifier>{df0d046e-c037-4b23-a982-f44ea3a8a008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Boost\type_traits\detail">
+      <UniqueIdentifier>{6785bfd7-ed19-48f0-918a-bd40319a1472}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BaseGraphicsLayer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="color.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvertTexture.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="d3dfont.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceInput.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceInputError.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="dxutil.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="EnumD3D.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Error.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="FastMath.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="FileLoad.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameTimer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicLayerError.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="IMEFont.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="NTexture.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Pool.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderDevice.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTexture.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTextureMipmap.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceLoader.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceMgr.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceObj.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Sphere.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="StateLog.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureContainer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewCamera.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="WinInput.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Z3DByteDataObj.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="3DMath.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseGraphicsLayer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Bitset.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="color.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ConvertTexture.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CrossMHeader.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dfont.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="dds.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceInput.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceInputError.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DxDiag.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="dxutil.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumD3D.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Error.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="FastMath.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="FileLoad.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameTimer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicLayerError.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="IMEFont.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="IPoolMgr.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="IResourceMgr.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="list.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MathBase.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="NTexture.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Pool.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="PoolMgr.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="quaternion.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="queue.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderDevice.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTexture.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTextureMipmap.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceLoader.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceMgr.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceObj.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="StateLog.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureContainer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="VECTOR.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewCamera.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="WBValue.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="WinInput.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Z3DByteDataObj.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Boost\config.hpp">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="Boost\limits.hpp">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="Boost\static_assert.hpp">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="Boost\config\select_compiler_config.hpp">
+      <Filter>Boost\config</Filter>
+    </ClInclude>
+    <ClInclude Include="Boost\config\select_platform_config.hpp">
+      <Filter>Boost\config</Filter>
+    </ClInclude>
+    <ClInclude Include="Boost\config\select_stdlib_config.hpp">
+      <Filter>Boost\config</Filter>
+    </ClInclude>
+    <ClInclude Include="Boost\config\suffix.hpp">
+      <Filter>Boost\config</Filter>
+    </ClInclude>
+    <ClInclude Include="Boost\config\user.hpp">
+      <Filter>Boost\config</Filter>
+    </ClInclude>
+    <ClInclude Include="Boost\config\compiler\visualc.hpp">
+      <Filter>Boost\config\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="Boost\config\no_tr1\utility.hpp">
+      <Filter>Boost\config\no_tr1</Filter>
+    </ClInclude>
+    <ClInclude Include="Boost\config\stdlib\dinkumware.hpp">
+      <Filter>Boost\config\stdlib</Filter>
+    </ClInclude>
+    <ClInclude Include="Boost\config\platform\win32.hpp">
+      <Filter>Boost\config\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Boost\detail\limits.hpp">
+      <Filter>Boost\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Boost\detail\workaround.hpp">
+      <Filter>Boost\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Boost\pool\object_pool.hpp">
+      <Filter>Boost\pool</Filter>
+    </ClInclude>
+    <ClInclude Include="Boost\pool\pool.hpp">
+      <Filter>Boost\pool</Filter>
+    </ClInclude>
+    <ClInclude Include="Boost\pool\pool_alloc.hpp">
+      <Filter>Boost\pool</Filter>
+    </ClInclude>
+    <ClInclude Include="Boost\pool\poolfwd.hpp">
+      <Filter>Boost\pool</Filter>
+    </ClInclude>
+    <ClInclude Include="Boost\pool\simple_segregated_storage.hpp">
+      <Filter>Boost\pool</Filter>
+    </ClInclude>
+    <ClInclude Include="Boost\pool\singleton_pool.hpp">
+      <Filter>Boost\pool</Filter>
+    </ClInclude>
+    <ClInclude Include="Boost\pool\detail\ct_gcd_lcm.hpp">
+      <Filter>Boost\pool\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Boost\pool\detail\gcd_lcm.hpp">
+      <Filter>Boost\pool\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Boost\pool\detail\guard.hpp">
+      <Filter>Boost\pool\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Boost\pool\detail\mutex.hpp">
+      <Filter>Boost\pool\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Boost\pool\detail\singleton.hpp">
+      <Filter>Boost\pool\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Boost\type_traits\ice.hpp">
+      <Filter>Boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="Boost\type_traits\detail\ice_and.hpp">
+      <Filter>Boost\type_traits\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Boost\type_traits\detail\ice_eq.hpp">
+      <Filter>Boost\type_traits\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Boost\type_traits\detail\ice_not.hpp">
+      <Filter>Boost\type_traits\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Boost\type_traits\detail\ice_or.hpp">
+      <Filter>Boost\type_traits\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Boost\type_traits\detail\yes_no_type.hpp">
+      <Filter>Boost\type_traits\detail</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Boost\pool\detail\pool_construct.inc">
+      <Filter>Boost\pool\detail</Filter>
+    </None>
+    <None Include="Boost\pool\detail\pool_construct_simple.inc">
+      <Filter>Boost\pool\detail</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

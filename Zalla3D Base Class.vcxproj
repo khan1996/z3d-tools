@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug_MY|Win32">
+      <Configuration>Debug_MY</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_MY|Win32">
+      <Configuration>Release_MY</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_NoGD|Win32">
+      <Configuration>Release_NoGD</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{663B3237-D6E2-4D71-8696-1425EBBEDBAD}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_MY|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_MY|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_NoGD|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_MY|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_MY|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_NoGD|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../../Library/$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../../Intermediate/$(ProjectName)/$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">../../Library/$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">../../Intermediate/$(ProjectName)/$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release_NoGD|Win32'">../../Library/$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release_NoGD|Win32'">../../Intermediate/$(ProjectName)/$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release_MY|Win32'">../../Library/$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release_MY|Win32'">../../Intermediate/$(ProjectName)/$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug_MY|Win32'">../../Library/$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug_MY|Win32'">../../Intermediate/$(ProjectName)/$(Configuration)\</IntDir>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug_MY|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug_MY|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug_MY|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release_MY|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release_MY|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release_MY|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release_NoGD|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release_NoGD|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release_NoGD|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>./;../Effect/;../Caldron/;../../Client/CharacterActionControl/;../../MemoryManager;../CrossM/Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)Zalla3DBaseClass.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>./;../Effect/;../Caldron/;../../Client/CharacterActionControl/;../../MemoryManager;../CrossM/Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)Zalla3DBaseClass.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_NoGD|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>./;../Effect/;../Caldron/;../../Client/CharacterActionControl/;../../MemoryManager;../CrossM/Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)Zalla3DBaseClass.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_MY|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>./;../Effect/;../Caldron/;../../Client/CharacterActionControl/;../../MemoryManager;../CrossM/Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)Zalla3DBaseClass.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_MY|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>./;../Effect/;../Caldron/;../../Client/CharacterActionControl/;../../MemoryManager;../CrossM/Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)Zalla3DBaseClass.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="BaseGraphicsLayer.cpp" />
+    <ClCompile Include="color.cpp" />
+    <ClCompile Include="ConvertTexture.cpp" />
+    <ClCompile Include="d3dfont.cpp" />
+    <ClCompile Include="DeviceInput.cpp" />
+    <ClCompile Include="DeviceInputError.cpp" />
+    <ClCompile Include="dxutil.cpp" />
+    <ClCompile Include="EnumD3D.cpp" />
+    <ClCompile Include="Error.cpp" />
+    <ClCompile Include="FastMath.cpp" />
+    <ClCompile Include="FileLoad.cpp" />
+    <ClCompile Include="FrameTimer.cpp" />
+    <ClCompile Include="GraphicLayerError.cpp" />
+    <ClCompile Include="IMEFont.cpp" />
+    <ClCompile Include="Intersection.cpp" />
+    <ClCompile Include="matrix.cpp" />
+    <ClCompile Include="NTexture.cpp" />
+    <ClCompile Include="Pool.cpp" />
+    <ClCompile Include="RenderDevice.cpp" />
+    <ClCompile Include="RenderTexture.cpp" />
+    <ClCompile Include="RenderTextureMipmap.cpp" />
+    <ClCompile Include="Resource.cpp" />
+    <ClCompile Include="ResourceLoader.cpp" />
+    <ClCompile Include="ResourceMgr.cpp" />
+    <ClCompile Include="ResourceObj.cpp" />
+    <ClCompile Include="Sphere.cpp" />
+    <ClCompile Include="StateLog.cpp" />
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="TextureContainer.cpp" />
+    <ClCompile Include="ViewCamera.cpp" />
+    <ClCompile Include="WinInput.cpp" />
+    <ClCompile Include="Z3DByteDataObj.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="3DMath.h" />
+    <ClInclude Include="BaseGraphicsLayer.h" />
+    <ClInclude Include="Bitset.h" />
+    <ClInclude Include="color.h" />
+    <ClInclude Include="ConvertTexture.h" />
+    <ClInclude Include="CrossMHeader.h" />
+    <ClInclude Include="d3dfont.h" />
+    <ClInclude Include="dds.h" />
+    <ClInclude Include="DeviceInput.h" />
+    <ClInclude Include="DeviceInputError.h" />
+    <ClInclude Include="DxDiag.h" />
+    <ClInclude Include="dxutil.h" />
+    <ClInclude Include="EnumD3D.h" />
+    <ClInclude Include="Error.h" />
+    <ClInclude Include="Exception.h" />
+    <ClInclude Include="FastMath.h" />
+    <ClInclude Include="FileLoad.h" />
+    <ClInclude Include="FrameTimer.h" />
+    <ClInclude Include="GraphicLayerError.h" />
+    <ClInclude Include="IMEFont.h" />
+    <ClInclude Include="Intersection.h" />
+    <ClInclude Include="IPoolMgr.h" />
+    <ClInclude Include="IResourceMgr.h" />
+    <ClInclude Include="list.h" />
+    <ClInclude Include="MathBase.h" />
+    <ClInclude Include="matrix.h" />
+    <ClInclude Include="NTexture.h" />
+    <ClInclude Include="Pool.h" />
+    <ClInclude Include="PoolMgr.h" />
+    <ClInclude Include="quaternion.h" />
+    <ClInclude Include="queue.h" />
+    <ClInclude Include="RenderDevice.h" />
+    <ClInclude Include="RenderTexture.h" />
+    <ClInclude Include="RenderTextureMipmap.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="ResourceLoader.h" />
+    <ClInclude Include="ResourceMgr.h" />
+    <ClInclude Include="ResourceObj.h" />
+    <ClInclude Include="Sphere.h" />
+    <ClInclude Include="StateLog.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="TextureContainer.h" />
+    <ClInclude Include="VECTOR.h" />
+    <ClInclude Include="Vertex.h" />
+    <ClInclude Include="ViewCamera.h" />
+    <ClInclude Include="WBValue.h" />
+    <ClInclude Include="WinInput.h" />
+    <ClInclude Include="Z3DByteDataObj.h" />
+    <ClInclude Include="Boost\config.hpp" />
+    <ClInclude Include="Boost\limits.hpp" />
+    <ClInclude Include="Boost\static_assert.hpp" />
+    <ClInclude Include="Boost\config\select_compiler_config.hpp" />
+    <ClInclude Include="Boost\config\select_platform_config.hpp" />
+    <ClInclude Include="Boost\config\select_stdlib_config.hpp" />
+    <ClInclude Include="Boost\config\suffix.hpp" />
+    <ClInclude Include="Boost\config\user.hpp" />
+    <ClInclude Include="Boost\config\compiler\visualc.hpp" />
+    <ClInclude Include="Boost\config\no_tr1\utility.hpp" />
+    <ClInclude Include="Boost\config\stdlib\dinkumware.hpp" />
+    <ClInclude Include="Boost\config\platform\win32.hpp" />
+    <ClInclude Include="Boost\detail\limits.hpp" />
+    <ClInclude Include="Boost\detail\workaround.hpp" />
+    <ClInclude Include="Boost\pool\object_pool.hpp" />
+    <ClInclude Include="Boost\pool\pool.hpp" />
+    <ClInclude Include="Boost\pool\pool_alloc.hpp" />
+    <ClInclude Include="Boost\pool\poolfwd.hpp" />
+    <ClInclude Include="Boost\pool\simple_segregated_storage.hpp" />
+    <ClInclude Include="Boost\pool\singleton_pool.hpp" />
+    <ClInclude Include="Boost\pool\detail\ct_gcd_lcm.hpp" />
+    <ClInclude Include="Boost\pool\detail\gcd_lcm.hpp" />
+    <ClInclude Include="Boost\pool\detail\guard.hpp" />
+    <ClInclude Include="Boost\pool\detail\mutex.hpp" />
+    <ClInclude Include="Boost\pool\detail\singleton.hpp" />
+    <ClInclude Include="Boost\type_traits\ice.hpp" />
+    <ClInclude Include="Boost\type_traits\detail\ice_and.hpp" />
+    <ClInclude Include="Boost\type_traits\detail\ice_eq.hpp" />
+    <ClInclude Include="Boost\type_traits\detail\ice_not.hpp" />
+    <ClInclude Include="Boost\type_traits\detail\ice_or.hpp" />
+    <ClInclude Include="Boost\type_traits\detail\yes_no_type.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Boost\pool\detail\pool_construct.inc" />
+    <None Include="Boost\pool\detail\pool_construct_simple.inc" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\MemoryManager\MemoryManager.vcxproj">
+      <Project>{b6bdd524-1dde-4a65-aed7-9ee4bc86a05d}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
