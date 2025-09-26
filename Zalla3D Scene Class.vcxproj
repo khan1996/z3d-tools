@@ -1,0 +1,479 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug_MY|Win32">
+      <Configuration>Debug_MY</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_MY|Win32">
+      <Configuration>Release_MY</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_NoGD|Win32">
+      <Configuration>Release_NoGD</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{48125D58-8048-48F4-97C6-967C72096625}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_MY|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_MY|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_NoGD|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_MY|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_MY|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_NoGD|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../../Library/$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../../Intermediate/$(ProjectName)/$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">../../Library/$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">../../Intermediate/$(ProjectName)/$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release_NoGD|Win32'">../../Library/$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release_NoGD|Win32'">../../Intermediate/$(ProjectName)/$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release_MY|Win32'">../../Library/$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release_MY|Win32'">../../Intermediate/$(ProjectName)/$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug_MY|Win32'">../../Library/$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug_MY|Win32'">../../Intermediate/$(ProjectName)/$(Configuration)\</IntDir>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug_MY|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug_MY|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug_MY|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release_MY|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release_MY|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release_MY|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release_NoGD|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release_NoGD|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release_NoGD|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../Zalla3D Base Class;../Effect;../../Client/CharacterActionControl/;../SoundLib;../Caldron;../../MemoryManager;../CrossM/Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)Zalla3DSceneClass.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>../Zalla3D Base Class;../Effect;../../Client/CharacterActionControl/;../SoundLib;../Caldron;../../MemoryManager;../CrossM/Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)Zalla3DSceneClass.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_NoGD|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>../Zalla3D Base Class;../Effect;../../Client/CharacterActionControl/;../SoundLib;../Caldron;../../MemoryManager;../CrossM/Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)Zalla3DSceneClass.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_MY|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>../Zalla3D Base Class;../Effect;../../Client/CharacterActionControl/;../SoundLib;../Caldron;../../MemoryManager;../CrossM/Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)Zalla3DSceneClass.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_MY|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../Zalla3D Base Class;../Effect;../../Client/CharacterActionControl/;../SoundLib;../Caldron;../../MemoryManager;../CrossM/Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)Zalla3DSceneClass.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AmbienceManager.cpp" />
+    <ClCompile Include="AmbienceStruct.cpp" />
+    <ClCompile Include="BaseCloth.cpp" />
+    <ClCompile Include="BGMController.cpp" />
+    <ClCompile Include="BgmManager.cpp" />
+    <ClCompile Include="BillboardParticle.cpp" />
+    <ClCompile Include="BoidScene.cpp" />
+    <ClCompile Include="BoidScene2.cpp" />
+    <ClCompile Include="BspScene.cpp" />
+    <ClCompile Include="CharacterCape.cpp" />
+    <ClCompile Include="CharacterLightShadowManager.cpp" />
+    <ClCompile Include="ChristmasParticle.cpp" />
+    <ClCompile Include="ChristmasParticleManager.cpp" />
+    <ClCompile Include="CircleParticle.cpp" />
+    <ClCompile Include="ClothMgr.cpp" />
+    <ClCompile Include="CloudScene.cpp" />
+    <ClCompile Include="CollisionDetection.cpp" />
+    <ClCompile Include="EffectObject.cpp" />
+    <ClCompile Include="EffectObjectAnimation.cpp" />
+    <ClCompile Include="FallScene.cpp" />
+    <ClCompile Include="FogManager.cpp" />
+    <ClCompile Include="FogScene.cpp" />
+    <ClCompile Include="FullSceneEffect.cpp" />
+    <ClCompile Include="FullScenePShader.cpp" />
+    <ClCompile Include="FullSceneShader.cpp" />
+    <ClCompile Include="GrassManager.cpp" />
+    <ClCompile Include="GrassScene.cpp" />
+    <ClCompile Include="H3DOutfitTable.cpp" />
+    <ClCompile Include="H3DWeaponTable.cpp" />
+    <ClCompile Include="HazeScene.cpp" />
+    <ClCompile Include="HeightFieldScene.cpp" />
+    <ClCompile Include="HouseNameObject.cpp" />
+    <ClCompile Include="HouseObject.cpp" />
+    <ClCompile Include="HouseObjectScene.cpp" />
+    <ClCompile Include="ImposterScene.cpp" />
+    <ClCompile Include="InHouseObjectMap.cpp" />
+    <ClCompile Include="InitValue.cpp" />
+    <ClCompile Include="InstanceObjectManager.cpp" />
+    <ClCompile Include="LayerFogScene.cpp" />
+    <ClCompile Include="LightContainer.cpp" />
+    <ClCompile Include="LightObject.cpp" />
+    <ClCompile Include="LightObjectScene.cpp" />
+    <ClCompile Include="LodMeshObject.cpp" />
+    <ClCompile Include="MapStorage.cpp" />
+    <ClCompile Include="MeshObject.cpp" />
+    <ClCompile Include="MeshObjectContainer.cpp" />
+    <ClCompile Include="NatureParticle.cpp" />
+    <ClCompile Include="NMesh.cpp" />
+    <ClCompile Include="ObjectContainer.cpp" />
+    <ClCompile Include="ObjectScene.cpp" />
+    <ClCompile Include="Octree.cpp" />
+    <ClCompile Include="OctreeScene.cpp" />
+    <ClCompile Include="Particle.cpp" />
+    <ClCompile Include="ParticleManager.cpp" />
+    <ClCompile Include="PerlinNoise.cpp" />
+    <ClCompile Include="QShader.cpp" />
+    <ClCompile Include="RBspScene.cpp" />
+    <ClCompile Include="RBspSceneManager.cpp" />
+    <ClCompile Include="RegionTrigger.cpp" />
+    <ClCompile Include="RenderBoundingBox.cpp" />
+    <ClCompile Include="ScatterParticle.cpp" />
+    <ClCompile Include="SceneEventMgr.cpp" />
+    <ClCompile Include="SceneLayerError.cpp" />
+    <ClCompile Include="SceneManager.cpp" />
+    <ClCompile Include="SceneNode.cpp" />
+    <ClCompile Include="SectorAmbienceMap.cpp" />
+    <ClCompile Include="SectorBGMTrigger.cpp" />
+    <ClCompile Include="SectorDungeonMap.cpp" />
+    <ClCompile Include="SectorEffectMap.cpp" />
+    <ClCompile Include="SectorFallMap.cpp" />
+    <ClCompile Include="SectorHeightMap.cpp" />
+    <ClCompile Include="SectorHouseMap.cpp" />
+    <ClCompile Include="SectorLandscapeEffectMap.cpp" />
+    <ClCompile Include="SectorLight.cpp" />
+    <ClCompile Include="SectorMeshMap.cpp" />
+    <ClCompile Include="SectorMustDivideVertexMap.cpp" />
+    <ClCompile Include="SectorPlantMap.cpp" />
+    <ClCompile Include="SectorScene.cpp" />
+    <ClCompile Include="SectorSoundMap.cpp" />
+    <ClCompile Include="SectorWaterMap.cpp" />
+    <ClCompile Include="SectorWideMap.cpp" />
+    <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="ShaderScene.cpp" />
+    <ClCompile Include="ShadowVolume.cpp" />
+    <ClCompile Include="SimpleParser.cpp" />
+    <ClCompile Include="SkyScene.cpp" />
+    <ClCompile Include="SmokeParticle.cpp" />
+    <ClCompile Include="SnowFall.cpp" />
+    <ClCompile Include="SunScene.cpp" />
+    <ClCompile Include="TreeScene.cpp" />
+    <ClCompile Include="TriggerEvent.cpp" />
+    <ClCompile Include="TriTreeNode.cpp" />
+    <ClCompile Include="ViewFrustum.cpp" />
+    <ClCompile Include="WaterScene.cpp" />
+    <ClCompile Include="WaterW.cpp" />
+    <ClCompile Include="WaveLine.cpp" />
+    <ClCompile Include="WBLightMap.cpp" />
+    <ClCompile Include="WBLightMapBuild.cpp" />
+    <ClCompile Include="WBLightMapGenerator.cpp" />
+    <ClCompile Include="WBLightMapTex.cpp" />
+    <ClCompile Include="WeatherManager.cpp" />
+    <ClCompile Include="Z3D_CONSTANTS.cpp" />
+    <ClCompile Include="Z3D_GLOBALS.cpp" />
+    <ClCompile Include="Z3DAniHolder.cpp" />
+    <ClCompile Include="Z3DAniKeyPack.cpp" />
+    <ClCompile Include="Z3DAnimationController.cpp" />
+    <ClCompile Include="Z3DAniMixer.cpp" />
+    <ClCompile Include="Z3DAttachment.cpp" />
+    <ClCompile Include="Z3DBladeTrail.cpp" />
+    <ClCompile Include="Z3DBoundingVolumeObject.cpp" />
+    <ClCompile Include="Z3DCharacterModel.cpp" />
+    <ClCompile Include="Z3DChrEventGenerator.cpp" />
+    <ClCompile Include="Z3DGCMDS.cpp" />
+    <ClCompile Include="Z3DGeneralChrModel.cpp" />
+    <ClCompile Include="Z3DGlowHandler.cpp" />
+    <ClCompile Include="Z3DGradeEffectHandler.cpp" />
+    <ClCompile Include="Z3DManagedObject.cpp" />
+    <ClCompile Include="Z3DMapTok2FileName.cpp" />
+    <ClCompile Include="Z3DMaskedStream.cpp" />
+    <ClCompile Include="Z3DMath.cpp" />
+    <ClCompile Include="Z3DMultipartPortion.cpp" />
+    <ClCompile Include="Z3DMultipartSkin.cpp" />
+    <ClCompile Include="Z3DObject.cpp" />
+    <ClCompile Include="Z3DRenderable.cpp" />
+    <ClCompile Include="Z3DSkeletonObject.cpp" />
+    <ClCompile Include="Z3DStringTable.cpp" />
+    <ClCompile Include="Z3DTexture.cpp" />
+    <ClCompile Include="Z3DTexturePiece.cpp" />
+    <ClCompile Include="Z3dtypes.cpp" />
+    <ClCompile Include="Z3DWeapon.cpp" />
+    <ClCompile Include="DataDefine.cpp" />
+    <ClCompile Include="RenderOption.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AmbienceManager.h" />
+    <ClInclude Include="AmbienceStruct.h" />
+    <ClInclude Include="asedefine.h" />
+    <ClInclude Include="BaseCloth.h" />
+    <ClInclude Include="BgmManager.h" />
+    <ClInclude Include="BillboardParticle.h" />
+    <ClInclude Include="BinTree.h" />
+    <ClInclude Include="BoidScene.h" />
+    <ClInclude Include="BoidScene2.h" />
+    <ClInclude Include="BspScene.h" />
+    <ClInclude Include="CharacterCape.h" />
+    <ClInclude Include="CharacterLightShadowManager.h" />
+    <ClInclude Include="ChristmasParticle.h" />
+    <ClInclude Include="ChristmasParticleManager.h" />
+    <ClInclude Include="CircleParticle.h" />
+    <ClInclude Include="ClothMgr.h" />
+    <ClInclude Include="CloudScene.h" />
+    <ClInclude Include="CollisionDetection.h" />
+    <ClInclude Include="EffectObject.h" />
+    <ClInclude Include="EffectObjectAnimation.h" />
+    <ClInclude Include="FallScene.h" />
+    <ClInclude Include="FogManager.h" />
+    <ClInclude Include="FogScene.h" />
+    <ClInclude Include="FullSceneEffect.h" />
+    <ClInclude Include="FullScenePShader.h" />
+    <ClInclude Include="FullSceneShader.h" />
+    <ClInclude Include="GrassManager.h" />
+    <ClInclude Include="GrassScene.h" />
+    <ClInclude Include="H3DContainer.h" />
+    <ClInclude Include="H3DOutfitTable.h" />
+    <ClInclude Include="H3DWeaponTable.h" />
+    <ClInclude Include="HazeScene.h" />
+    <ClInclude Include="HeightFieldScene.h" />
+    <ClInclude Include="HouseNameObject.h" />
+    <ClInclude Include="HouseObject.h" />
+    <ClInclude Include="HouseObjectScene.h" />
+    <ClInclude Include="ImposterScene.h" />
+    <ClInclude Include="InHouseObjectMap.h" />
+    <ClInclude Include="InitValue.h" />
+    <ClInclude Include="InstanceObjectManager.h" />
+    <ClInclude Include="LayerFogScene.h" />
+    <ClInclude Include="LightContainer.h" />
+    <ClInclude Include="LightObject.h" />
+    <ClInclude Include="LightObjectScene.h" />
+    <ClInclude Include="LodMeshObject.h" />
+    <ClInclude Include="MapStorage.h" />
+    <ClInclude Include="MeshObject.h" />
+    <ClInclude Include="MeshObjectContainer.h" />
+    <ClInclude Include="misc.h" />
+    <ClInclude Include="NatureParticle.h" />
+    <ClInclude Include="NMesh.h" />
+    <ClInclude Include="ObjectContainer.h" />
+    <ClInclude Include="ObjectScene.h" />
+    <ClInclude Include="Octree.h" />
+    <ClInclude Include="OctreeScene.h" />
+    <ClInclude Include="Particle.h" />
+    <ClInclude Include="ParticleManager.h" />
+    <ClInclude Include="PerlinNoise.h" />
+    <ClInclude Include="QShader.h" />
+    <ClInclude Include="RBspScene.h" />
+    <ClInclude Include="RBspSceneManager.h" />
+    <ClInclude Include="RegionTrigger.h" />
+    <ClInclude Include="RenderBoundingBox.h" />
+    <ClInclude Include="ScatterParticle.h" />
+    <ClInclude Include="SceneEventMgr.h" />
+    <ClInclude Include="SceneException.h" />
+    <ClInclude Include="SceneLayerError.h" />
+    <ClInclude Include="SceneManager.h" />
+    <ClInclude Include="SceneNode.h" />
+    <ClInclude Include="SectorAmbienceMap.h" />
+    <ClInclude Include="SectorBGMTrigger.h" />
+    <ClInclude Include="SectorDungeonMap.h" />
+    <ClInclude Include="SectorEffectMap.h" />
+    <ClInclude Include="SectorFallMap.h" />
+    <ClInclude Include="SectorHeightMap.h" />
+    <ClInclude Include="SectorHouseMap.h" />
+    <ClInclude Include="SectorLandscapeEffectMap.h" />
+    <ClInclude Include="SectorLight.h" />
+    <ClInclude Include="SectorMeshMap.h" />
+    <ClInclude Include="SectorMustDivideVertexMap.h" />
+    <ClInclude Include="SectorPlantMap.h" />
+    <ClInclude Include="SectorScene.h" />
+    <ClInclude Include="SectorWaterMap.h" />
+    <ClInclude Include="SectorWideMap.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="ShaderScene.h" />
+    <ClInclude Include="ShadowVolume.h" />
+    <ClInclude Include="SimpleParser.h" />
+    <ClInclude Include="SimpleString.h" />
+    <ClInclude Include="SkyScene.h" />
+    <ClInclude Include="SmokeParticle.h" />
+    <ClInclude Include="SnowFall.h" />
+    <ClInclude Include="STL.h" />
+    <ClInclude Include="SunScene.h" />
+    <ClInclude Include="TreeScene.h" />
+    <ClInclude Include="TriTreeNode.h" />
+    <ClInclude Include="ViewFrustum.h" />
+    <ClInclude Include="WaterScene.h" />
+    <ClInclude Include="WaterW.h" />
+    <ClInclude Include="WaveLine.h" />
+    <ClInclude Include="WBLightMap.h" />
+    <ClInclude Include="WBLightMapBuild.h" />
+    <ClInclude Include="WBLightMapGenerator.h" />
+    <ClInclude Include="WBLightMapTex.h" />
+    <ClInclude Include="WeatherManager.h" />
+    <ClInclude Include="Z3DAniHolder.h" />
+    <ClInclude Include="Z3DAniKeyPack.h" />
+    <ClInclude Include="Z3DAnimationController.h" />
+    <ClInclude Include="Z3DAniMixer.h" />
+    <ClInclude Include="Z3DAttachment.h" />
+    <ClInclude Include="Z3DBladeTrail.h" />
+    <ClInclude Include="Z3DBoundingVolumeObject.h" />
+    <ClInclude Include="Z3DCacheMgr.h" />
+    <ClInclude Include="Z3DChrEventGenerator.h" />
+    <ClInclude Include="Z3DContainer.h" />
+    <ClInclude Include="Z3DGCMDS.h" />
+    <ClInclude Include="Z3DGeneralChrModel.h" />
+    <ClInclude Include="Z3DGlowHandler.h" />
+    <ClInclude Include="Z3DGradeEffectHandler.h" />
+    <ClInclude Include="Z3DManagedObject.h" />
+    <ClInclude Include="Z3DMapTok2FileName.h" />
+    <ClInclude Include="Z3DMaskedStream.h" />
+    <ClInclude Include="Z3DMath.h" />
+    <ClInclude Include="Z3DMultipartPortion.h" />
+    <ClInclude Include="Z3DMultipartSkin.h" />
+    <ClInclude Include="Z3DObject.h" />
+    <ClInclude Include="Z3DRenderable.h" />
+    <ClInclude Include="Z3DSkeletonObject.h" />
+    <ClInclude Include="Z3DStringTable.h" />
+    <ClInclude Include="Z3DTexture.h" />
+    <ClInclude Include="Z3DTexturePiece.h" />
+    <ClInclude Include="Z3DTYPES.h" />
+    <ClInclude Include="Z3DWeapon.h" />
+    <ClInclude Include="BaseDataDefine.h" />
+    <ClInclude Include="BspDataDefine.h" />
+    <ClInclude Include="RenderOption.h" />
+    <ClInclude Include="SectorDefine.h" />
+    <ClInclude Include="Z3D_CONSTANTS.h" />
+    <ClInclude Include="Z3D_GLOBALS.h" />
+    <ClInclude Include="Z3DCharacterModel.h" />
+    <ClInclude Include="Z3DEventSignal.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\MemoryManager\MemoryManager.vcxproj">
+      <Project>{b6bdd524-1dde-4a65-aed7-9ee4bc86a05d}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Caldron\Caldron.vcxproj">
+      <Project>{f65430a6-d6c5-4eda-a035-6e9b615e434b}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\CrossM\CrossM.vcxproj">
+      <Project>{540a7517-d29e-4835-8392-1922b8d53b7b}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Effect\Effect.vcxproj">
+      <Project>{ae5e7eca-0d7f-4538-b80c-900b07aa00ce}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\SoundLib\SoundLib.vcxproj">
+      <Project>{00a76bec-6d9a-4cac-9e79-eda8e5a9b9c4}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
