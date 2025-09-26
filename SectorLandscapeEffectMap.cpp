@@ -1,0 +1,20 @@
+// SectorLandscapeEffectMap.cpp: implementation of the CSectorLandscapeEffectMap class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "SectorLandscapeEffectMap.h"
+#include "GMMemory.h"
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+CSectorLandscapeEffectMap::CSectorLandscapeEffectMap()
+{
+
+}
+
+CSectorLandscapeEffectMap::~CSectorLandscapeEffectMap()
+{
+
+}
