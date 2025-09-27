@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Math">
+      <UniqueIdentifier>{1d328367-6680-4a76-8582-a7986b1ef097}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{a57a23b6-3e84-4fbe-86a4-66cbe049b94b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\MathConst.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MathUtil.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Vector3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\CollisionEllipsoidHelper.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\OctreeCollider.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\MathUtil.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CollisionEllipsoidHelper.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\OctreeCollider.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
